@@ -15,7 +15,7 @@ public class server {
                 logs.mkdir();
 
             // cria o arquivo
-            FileWriter escrevedor = new FileWriter(new File(logs, "tarefas.txt"), true);
+            FileWriter escrevedor = new FileWriter(new File(logs, "logs.txt"), true);
 
             // só pra mostrar algumas informações
             System.out.println("Servidor iniciado em " + server.getInetAddress().getHostAddress() + ":" + server.getLocalPort());
